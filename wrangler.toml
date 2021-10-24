@@ -1,0 +1,16 @@
+account_id = "9dd00554d5e77e99bbf7668707db6932"
+name = "pages"
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2021-10-18"
+kv_namespaces = [
+  {binding = "PREVIEW_KV", preview_id = "6c055d2410b24e41928c01f4972217e6"}
+]
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
