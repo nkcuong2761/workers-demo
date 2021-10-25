@@ -8,7 +8,8 @@ compatibility_flags = []
 workers_dev = true
 compatibility_date = "2021-10-18"
 kv_namespaces = [
-  {binding = "PREVIEW_KV", preview_id = "6c055d2410b24e41928c01f4972217e6"}
+  {binding = "MY_KV", id = "1a7359526de1485ea45c3d01681bbc1a"},
+  # {binding = "PREVIEW_KV", preview_id = "6c055d2410b24e41928c01f4972217e6"}
 ]
 
 [site]

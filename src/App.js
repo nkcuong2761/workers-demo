@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { Router } from "@reach/router"
 
-function App() {
+import Posts from "./components/posts"
+
+function App(){
   return (
-    <div>
-      <span>Hello world</span>
-    </div>
+    <Router>
+      <Posts path='/' />
+    </Router>
   );
 }
 
