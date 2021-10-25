@@ -7,11 +7,11 @@ const Posts = () => {
   useEffect(() => {
     const getPosts = async () => {
       const resp = await fetch(
-        "https://rsf-dev.bucknell.edu/pathlist/?APIKey=RSFKey062318&version=1.0"
-      );// "https://my-worker.ckn006.workers.dev/api/posts"
-      const postsResp = await resp.json();
-      setPosts(postsResp);
-    };
+        "https://my-worker.ckn006.workers.dev/api/posts"
+      )
+      const postsResp = await resp.json()
+      setPosts(postsResp)
+    }
 
     getPosts();
   }, []);
